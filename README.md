@@ -50,3 +50,9 @@ Invoke-Python -Path "C:\path\to\script.py"
 
 # Example: Execute a Python script block
 Invoke-Python -ScriptBlock "print('Hello, World!')"
+```
+## Error Handling
+If an invalid combination of parameters is provided, the function will throw an error with the message "Invalid combination of parameters."
+
+## License
+This project is licensed under the MIT License.
